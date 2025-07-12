@@ -79,8 +79,7 @@ class DriverManager:
 
             if not event:  
                 logging.warning("Message missing event field")
-                await msg.term()
-                raise DriverRuntimeException("Message missing event field for driver %s." % self.driver.name)
+                raise Exception("Message missing event field for driver %s." % self.driver.name)
 
             logging.debug("Received message for event: %s", event)
 
