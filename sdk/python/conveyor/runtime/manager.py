@@ -26,7 +26,7 @@ class DriverManager:
         if not self.driver:
             raise DriverRuntimeException("Invalid driver instance provided.")
 
-        if not self.events or not isinstance(self.events, List):
+        if not self.events:
             raise DriverRuntimeException("Events must be a non-empty list.")
 
         for event in self.events:
