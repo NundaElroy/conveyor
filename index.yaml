@@ -1,0 +1,27 @@
+apiVersion: v1
+entries:
+  conveyor:
+  - apiVersion: v2
+    appVersion: v3.4.1
+    created: "2025-08-05T15:19:50.067235038Z"
+    description: Conveyor CI is an Engine/Framwork for building custom CI/CD Platforms.
+    digest: 3fcf8b2d54b292ea26c2891a028ee5ab023b6a66a35e661666fed685ded0b545
+    home: https://conveyor.open.ug/
+    icon: https://conveyor.open.ug/img/logo.png
+    keywords:
+    - cicd
+    - devops
+    - monitoring
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - email: jimjunior854@gmail.com
+      name: jim-junior
+      url: https://github.com/jim-junior
+    name: conveyor
+    sources:
+    - https://github.com/open-ug/conveyor
+    type: application
+    urls:
+    - https://open-ug.github.io/conveyor/conveyor-0.1.16.tgz
+    version: 0.1.16
+generated: "2025-08-05T15:19:50.066427441Z"
